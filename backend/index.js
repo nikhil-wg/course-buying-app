@@ -15,6 +15,6 @@ async function main() {
     "mongodb+srv://nikhilwagh:5WSn0TnVuKNfMPci@cluster0.i8ue7.mongodb.net/courses-app"
   );
   app.listen(3000);
-  console.log("3000 port is running")
+  console.log("3000 port is running");
 }
-main()
+main();
