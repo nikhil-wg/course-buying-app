@@ -1,18 +1,38 @@
 {
+<<<<<<< HEAD
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "name": "course_buying-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+>>>>>>> 4b4bbf27177632a7232ca9f90330f06515e4f5a4
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "dependencies": {
     "@types/express": "^5.0.0",
     "express": "^4.21.2",
     "mongoose": "^8.9.2",
     "typescript": "^5.7.2"
+=======
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7"
+>>>>>>> 4b4bbf27177632a7232ca9f90330f06515e4f5a4
   }
 }
